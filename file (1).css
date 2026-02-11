@@ -1,0 +1,48 @@
+/* Checkout */
+.checkout-container {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+#checkout-form, .order-summary {
+  background-color: #f6ecec;
+  padding: 25px;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 300px;
+}
+
+#checkout-form input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+#checkout-form button {
+  width: 100%;
+  background-color: #f07b8d;
+  color: white;
+  font-weight: bold;
+}
+
+.order-summary ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+#order-confirmation {
+  background-color: #e0eef0;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+/dsa-shop
+│
+├── index.html
+├── about.html
+├── contact.html
+├── products.html
+├── checkout.html          ← 🆕 NEU!
+├── styles.css
+└── script.js
